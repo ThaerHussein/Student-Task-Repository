@@ -9,11 +9,11 @@ This repository contains a task for students along with challenges and instructi
 2. Read the task description carefully.
 3. Complete the challenges outlined in [Challenges.md](Challenges.md).
 4. Follow the step-by-step instructions in [Instructions.md](Instructions.md).
-5. Submit your solution by [specify the submission method].
+5. Submit your solution by upload it to Canvas where all Assignment being created.
 
 ## Challenges:
 ### Challenge 1: Implement Read (GET) Operation
-1. Extend the existing `DemoController.java` to include additional GET endpoints.
+1. Extend the existing `CodedContoller.java` to include additional GET endpoints.
 2. Implement logic to retrieve data based on various criteria (e.g., all items, specific IDs, etc.).
 3. Test the new GET endpoints using different scenarios and verify the retrieved data.
 
@@ -33,7 +33,7 @@ Follow these detailed step-by-step instructions to complete the task:
 ### Step 1: Implement Read (GET) Operation
 
 1. **Create GET Endpoints:**
-   - Open `DemoController.java`.
+   - Open `CodedContoller.java`.
    - Add new methods annotated with `@GetMapping` to handle different read scenarios (e.g., get all items, get by ID, etc.).
 
 2. **Implement Logic in Controller:**
@@ -48,7 +48,7 @@ Follow these detailed step-by-step instructions to complete the task:
 ### Step 2: Implement Update (PUT) Operation
 
 1. **Create PUT Endpoint:**
-   - In `DemoController.java`, add a new method annotated with `@PutMapping` to handle update requests.
+   - In `CodedContoller.java`, add a new method annotated with `@PutMapping` to handle update requests.
 
 2. **Implement Logic in Controller:**
    - Inside the PUT method, implement logic to update existing data.
@@ -62,7 +62,7 @@ Follow these detailed step-by-step instructions to complete the task:
 ### Step 3: Implement Delete (DELETE) Operation
 
 1. **Create DELETE Endpoint:**
-   - In `DemoController.java`, add a new method annotated with `@DeleteMapping` to handle delete requests.
+   - In `CodedContoller.java`, add a new method annotated with `@DeleteMapping` to handle delete requests.
 
 2. **Implement Logic in Controller:**
    - Inside the DELETE method, implement logic to delete existing data.
